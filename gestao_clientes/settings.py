@@ -28,7 +28,7 @@ DJANGO_SECRET_KEY = config('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['gestao-clientes2.herokuapp.com', 'localhost', '0.0.0.0', '192.168.0.149', '189.35.193.53']
+ALLOWED_HOSTS = ['gestao-clientes-eric-2.herokuapp.com', 'localhost', '0.0.0.0', '192.168.0.149', '189.35.193.53']
 
 INTERNAL_IPS = ['127.0.0.1']
 
