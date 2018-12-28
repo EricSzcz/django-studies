@@ -12,15 +12,19 @@
         </div>
 
         <div class="col-6">
-            <h1>Seja bem vindo</h1>
+            <h1>Seja bem vindo a home 3</h1>
+
+            {{result}}
         </div>
 
         <div class="col-sm">
             {% if user.is_authenticated %}
                 <p>Ola {{ user.username }}</p>
-                <a href="{% url 'logout' %}">Sair</a>
+                <a href="{% url 'logout' %}">Sair</a><br>
+                <a href="{% url 'password_change' %}">Alterar Senha</a>
             {% else %}
-                <a href="{% url 'login' %}" class="btn btn-info">Entrar</a>
+                <a href="{% url 'login' %}" class="btn btn-info">Entrar</a><br>
+            <a href="{% url 'password_reset' %}">Esqueci minha senha</a>
             {% endif %}
         </div>
     </div>
@@ -28,9 +32,5 @@
 {% endblock %}
 
 {% block footer %}
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted">Desenvolvimento web com Django 2.x</span>
-      </div>
-    </footer>
-{% endblock %}
+    {% include 'footer.html' %}
+{% endblock %}}
