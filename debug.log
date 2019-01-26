@@ -1,0 +1,116 @@
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '1ln7axk8r3h5wfvujohl4ht40lfe53n0' AND "django_session"."expire_date" > '2019-01-22 23:01:09.378429'); args=('1ln7axk8r3h5wfvujohl4ht40lfe53n0', '2019-01-22 23:01:09.378429')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+accessaram a listagem de vendas
+(0.000) SELECT "vendas_venda"."id", "vendas_venda"."numero", "vendas_venda"."valor", "vendas_venda"."desconto", "vendas_venda"."impostos", "vendas_venda"."pessoa_id", "vendas_venda"."nfe_emitida" FROM "vendas_venda"; args=()
+(0.000) BEGIN; args=None
+(0.000) UPDATE "django_session" SET "session_data" = 'OWZiYjRkZDA4NDUwYzVmZTc4ZDIxMDBjNTgyZDY5ZGVlZGQ1OTVhNzp7Im1lc3NhZ2UiOiJPbGEgZXJpYywgYm9tIGRpYSEiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZTIwYzExM2M3MjY1YjdjMGFjOGU2MWNmOGRlMjc0ZDY2ZjUxZGY3YSJ9', "expire_date" = '2019-02-05 23:01:09.528205' WHERE "django_session"."session_key" = '1ln7axk8r3h5wfvujohl4ht40lfe53n0'; args=('OWZiYjRkZDA4NDUwYzVmZTc4ZDIxMDBjNTgyZDY5ZGVlZGQ1OTVhNzp7Im1lc3NhZ2UiOiJPbGEgZXJpYywgYm9tIGRpYSEiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZTIwYzExM2M3MjY1YjdjMGFjOGU2MWNmOGRlMjc0ZDY2ZjUxZGY3YSJ9', '2019-02-05 23:01:09.528205', '1ln7axk8r3h5wfvujohl4ht40lfe53n0')
+"GET /vendas/ HTTP/1.1" 200 26347
+"GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+"GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+"GET /static/stick-footer.css HTTP/1.1" 304 0
+"GET /static/style.css HTTP/1.1" 304 0
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '1ln7axk8r3h5wfvujohl4ht40lfe53n0' AND "django_session"."expire_date" > '2019-01-22 23:03:28.339202'); args=('1ln7axk8r3h5wfvujohl4ht40lfe53n0', '2019-01-22 23:03:28.339202')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+division by zero
+accessaram a listagem de vendas
+(0.000) SELECT "vendas_venda"."id", "vendas_venda"."numero", "vendas_venda"."valor", "vendas_venda"."desconto", "vendas_venda"."impostos", "vendas_venda"."pessoa_id", "vendas_venda"."nfe_emitida" FROM "vendas_venda"; args=()
+(0.000) BEGIN; args=None
+(0.000) UPDATE "django_session" SET "session_data" = 'OWZiYjRkZDA4NDUwYzVmZTc4ZDIxMDBjNTgyZDY5ZGVlZGQ1OTVhNzp7Im1lc3NhZ2UiOiJPbGEgZXJpYywgYm9tIGRpYSEiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZTIwYzExM2M3MjY1YjdjMGFjOGU2MWNmOGRlMjc0ZDY2ZjUxZGY3YSJ9', "expire_date" = '2019-02-05 23:03:28.483270' WHERE "django_session"."session_key" = '1ln7axk8r3h5wfvujohl4ht40lfe53n0'; args=('OWZiYjRkZDA4NDUwYzVmZTc4ZDIxMDBjNTgyZDY5ZGVlZGQ1OTVhNzp7Im1lc3NhZ2UiOiJPbGEgZXJpYywgYm9tIGRpYSEiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZTIwYzExM2M3MjY1YjdjMGFjOGU2MWNmOGRlMjc0ZDY2ZjUxZGY3YSJ9', '2019-02-05 23:03:28.483270', '1ln7axk8r3h5wfvujohl4ht40lfe53n0')
+"GET /vendas/ HTTP/1.1" 200 26348
+"GET /static/stick-footer.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/style.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '1ln7axk8r3h5wfvujohl4ht40lfe53n0' AND "django_session"."expire_date" > '2019-01-22 23:12:15.190214'); args=('1ln7axk8r3h5wfvujohl4ht40lfe53n0', '2019-01-22 23:12:15.190214')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+2019-01-22 23:12:15 - eric
+Traceback (most recent call last):
+  File "/home/eric/Documents/projects/python/djangoadv/gestao_clientes/vendas/views.py", line 86, in get
+    1/0
+ZeroDivisionError: division by zero
+division by zero
+accessaram a listagem de vendas
+(0.000) SELECT "vendas_venda"."id", "vendas_venda"."numero", "vendas_venda"."valor", "vendas_venda"."desconto", "vendas_venda"."impostos", "vendas_venda"."pessoa_id", "vendas_venda"."nfe_emitida" FROM "vendas_venda"; args=()
+(0.000) BEGIN; args=None
+(0.000) UPDATE "django_session" SET "session_data" = 'OWZiYjRkZDA4NDUwYzVmZTc4ZDIxMDBjNTgyZDY5ZGVlZGQ1OTVhNzp7Im1lc3NhZ2UiOiJPbGEgZXJpYywgYm9tIGRpYSEiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZTIwYzExM2M3MjY1YjdjMGFjOGU2MWNmOGRlMjc0ZDY2ZjUxZGY3YSJ9', "expire_date" = '2019-02-05 23:12:15.336969' WHERE "django_session"."session_key" = '1ln7axk8r3h5wfvujohl4ht40lfe53n0'; args=('OWZiYjRkZDA4NDUwYzVmZTc4ZDIxMDBjNTgyZDY5ZGVlZGQ1OTVhNzp7Im1lc3NhZ2UiOiJPbGEgZXJpYywgYm9tIGRpYSEiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZTIwYzExM2M3MjY1YjdjMGFjOGU2MWNmOGRlMjc0ZDY2ZjUxZGY3YSJ9', '2019-02-05 23:12:15.336969', '1ln7axk8r3h5wfvujohl4ht40lfe53n0')
+"GET /vendas/ HTTP/1.1" 200 26348
+"GET /static/stick-footer.css HTTP/1.1" 304 0
+"GET /static/style.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = '1ln7axk8r3h5wfvujohl4ht40lfe53n0' AND "django_session"."expire_date" > '2019-01-22 23:13:03.300679'); args=('1ln7axk8r3h5wfvujohl4ht40lfe53n0', '2019-01-22 23:13:03.300679')
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+2019-01-22 23:13:03 - eric
+Traceback (most recent call last):
+  File "/home/eric/Documents/projects/python/djangoadv/gestao_clientes/vendas/views.py", line 86, in get
+    1/0
+ZeroDivisionError: division by zero
+accessaram a listagem de vendas
+(0.000) SELECT "vendas_venda"."id", "vendas_venda"."numero", "vendas_venda"."valor", "vendas_venda"."desconto", "vendas_venda"."impostos", "vendas_venda"."pessoa_id", "vendas_venda"."nfe_emitida" FROM "vendas_venda"; args=()
+(0.000) BEGIN; args=None
+(0.000) UPDATE "django_session" SET "session_data" = 'OWZiYjRkZDA4NDUwYzVmZTc4ZDIxMDBjNTgyZDY5ZGVlZGQ1OTVhNzp7Im1lc3NhZ2UiOiJPbGEgZXJpYywgYm9tIGRpYSEiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZTIwYzExM2M3MjY1YjdjMGFjOGU2MWNmOGRlMjc0ZDY2ZjUxZGY3YSJ9', "expire_date" = '2019-02-05 23:13:03.444490' WHERE "django_session"."session_key" = '1ln7axk8r3h5wfvujohl4ht40lfe53n0'; args=('OWZiYjRkZDA4NDUwYzVmZTc4ZDIxMDBjNTgyZDY5ZGVlZGQ1OTVhNzp7Im1lc3NhZ2UiOiJPbGEgZXJpYywgYm9tIGRpYSEiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZTIwYzExM2M3MjY1YjdjMGFjOGU2MWNmOGRlMjc0ZDY2ZjUxZGY3YSJ9', '2019-02-05 23:13:03.444490', '1ln7axk8r3h5wfvujohl4ht40lfe53n0')
+"GET /vendas/ HTTP/1.1" 200 26348
+"GET /static/stick-footer.css HTTP/1.1" 304 0
+"GET /static/style.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Not Found: /VENDAS
+"GET /VENDAS HTTP/1.1" 404 14311
+2019-01-22 23:16:00 - eric
+Traceback (most recent call last):
+  File "/home/eric/Documents/projects/python/djangoadv/gestao_clientes/vendas/views.py", line 86, in get
+    1/0
+ZeroDivisionError: division by zero
+2019-01-22 23:21:35 - eric
+Traceback (most recent call last):
+  File "/home/eric/Documents/projects/python/djangoadv/gestao_clientes/vendas/views.py", line 86, in get
+    1/0
+ZeroDivisionError: division by zero
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 14326
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 14326
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 14326

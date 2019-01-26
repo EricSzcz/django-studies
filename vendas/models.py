@@ -6,6 +6,7 @@ from clientes.models import Person
 from produtos.models import Produto
 from .managers import VendaManager
 
+
 class Venda(models.Model):
     numero = models.CharField(max_length=7)
     valor = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True)
